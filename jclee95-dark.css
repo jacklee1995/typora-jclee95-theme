@@ -1,16 +1,17 @@
 /* ===== 根变量定义 ===== */
 :root {
   --side-bar-bg-color: #1E293B;
-  --body-background-color: #eef5f4; 
-  --control-text-color: #d8d8d8;
+  --body-background-color: #1F1F1F; 
+  --control-text-color: #e4e4e4;
   --active-file-bg-color: #9ba2a3;
   --active-file-border-color: #6B6B6B;
-  --active-file-text-color: #202020;
+  --active-file-text-color: #e7e7e7;
   --table-even-row-color: #f7ffe5;
   --table-head-bg-color: #F8F9FA;
   --code-block-bg-color: #d40000; 
   --default-mono-font: 'JetBrains Mono', 'Menlo';
   --default-regular-font: 'GitLab Sans', -apple-system;
+  --text-color: #cacaca;
 }
 
 /* ===== 字体定义 ===== */
@@ -95,12 +96,12 @@ body {
   background-color: #f7f7f7;
   border: 0;
   border-radius: 3px;
-  color: #777777;
+  color: #eeeeee;
   margin-top: 0 !important;
 }
 
 .md-image>.md-meta {
-  color: #777777;
+  color: #c0c0c0;
   font-size: 0.9rem;
   font-family: 'JetBrains Mono';
   padding: 4px 0;
@@ -157,42 +158,42 @@ h1 {
   line-height: 110%;
   margin-top: 0.67em;
   margin-bottom: 0.67em;
-  color: #000000;
+  color: #ffffff;
 }
 
 h2 {
   font-size: 1.5em;
   margin-top: 0.83em;
   margin-bottom: 0.83em;
-  color: #037781;
+  color: #0bce8d;
 }
 
 h3 {
   font-size: 1.17em;
   margin-top: 1em;
   margin-bottom: 1em;
-  color: #4B1F9E;
+  color: #9a63ff;
 }
 
 h4 {
   font-size: 1em;
   margin-top: 1.33em;
   margin-bottom: 1.33em;
-  color: #8D0535;
+  color: #009297;
 }
 
 h5 {
   font-size: 1em;
   margin-top: 1.33em;
   margin-bottom: 1.33em;
-  color: #777777;
+  color: #a3b859;
 }
 
 h6 {
   font-size: 1em;
   margin-top: 1.33em;
   margin-bottom: 1.33em;
-  color: #adadad;
+  color: #a3a3a3;
 }
 
 /* ===== 表格样式 ===== */
@@ -515,3 +516,4 @@ hr {
   color: #777777;
   font-weight: normal !important;
 }
+
