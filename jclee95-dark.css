@@ -8,7 +8,7 @@
   --active-file-text-color: #e7e7e7;
   --table-even-row-color: #f7ffe5;
   --table-head-bg-color: #F8F9FA;
-  --code-block-bg-color: #d40000; 
+  --code-block-bg-color: #b90000; 
   --default-mono-font: 'JetBrains Mono', 'Menlo';
   --default-regular-font: 'GitLab Sans', -apple-system;
   --text-color: #cacaca;
@@ -330,7 +330,7 @@ hr {
 #write code, tt {
   padding: 0.6px 4px;
   border-radius: 2px;
-  background-color: #F9F2F4;
+  background-color: #000000;
   /* font-family: 'SourceCodePro', Consolas, Courier, 'NotoSansSC';
    */
    font-family: var(--default-mono-font, "Menlo"),"DejaVu Sans Mono","Liberation Mono","Consolas","Ubuntu Mono","Courier New","andale mono","lucida console",monospace;
