@@ -3,9 +3,6 @@
   --side-bar-bg-color: #1E293B;
   --body-background-color: #1F1F1F; 
   --control-text-color: #e4e4e4;
-  --active-file-bg-color: #9ba2a3;
-  --active-file-border-color: #6B6B6B;
-  --active-file-text-color: #e7e7e7;
   --table-even-row-color: #000000;
   --table-head-bg-color: #F8F9FA;
   --code-block-bg-color: #b90000; 
@@ -140,9 +137,22 @@ body {
 }
 
 /* ===== 右键菜单样式 ===== */
+.dropdown-menu{
+  font-size: medium;
+} 
+.context-menu{
+  font-size: medium;
+} 
+.ext-context-menu{
+  font-size: medium;
+}
 .menu-style-btn {
   color:#000000;
 }
+a.state-off {
+  color: #0f0f0f !important;
+}
+
 
 .disabled{
   color:#cecece !important;
@@ -550,3 +560,73 @@ hr {
   font-weight: normal !important;
 }
 
+
+/* ===== SideBar 样式 ===== */
+.sidebar-footer-main-item-label{
+  color: #f7f7f7;
+}
+
+.file-library-file-node:hover{
+  background-color: #46df00;
+}
+
+.file-node-content:hover{
+  background-color: #143b50;
+}
+
+.file-node-content:hover .file-node-title-name-part{
+  color: #ffbd72;
+}
+.file-node-content:hover .file-node-title-ext-part{
+  color: #ff8800;
+}
+
+.file-node-title-name-part{
+  color: #a5a5a5;
+}
+.file-node-title-ext-part{
+  color: #e9e9e9;
+}
+
+.file-list-item-file-name-part{
+  color:#e1f5ff;
+}
+
+.ty-search-item-line{
+  color: #e6e6e6;
+}
+
+.ty-file-search-match-text{
+  color: #15adff;
+}
+.sidebar-footer{
+  color: #ffe9e9;
+}
+.ty-add{
+  color: #15adff;
+}
+
+li.file-action-item{
+  color: #4EC9B0;
+}
+
+li.file-action-item a{
+  color: #f6ffa3;
+}
+
+li.not-empty-menu-group{
+  color: #b790ff;
+}
+
+.active {
+  background-color: #000000;
+}
+
+.active .file-node-title-name-part{
+  color: #ffee00;
+  
+}
+
+.active .file-node-title-ext-part{
+  color: #00ffaa;
+}
