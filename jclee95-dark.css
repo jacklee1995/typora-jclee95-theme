@@ -463,7 +463,7 @@ hr {
 }
 
 .cm-s-inner span.cm-variable-2 {
-  color: #9CDCFE; /* 浅蓝色变量 */
+  color: #4EC9B0; /* 浅蓝色变量 */
 }
 
 .cm-s-inner span.cm-variable-3,
@@ -503,6 +503,11 @@ hr {
 
 .CodeMirror div.CodeMirror-cursor {
   border-left: 1px solid #D4D4D4; /* 浅灰色光标 */
+}
+
+/* 元数据/注解样式 */
+span.cm-meta{
+  color: #cfa500 !important;
 }
 
 /* ===== 文件节点与信息面板样式 ===== */
